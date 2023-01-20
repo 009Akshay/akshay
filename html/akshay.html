@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <h1>Appointment Scheduler</h1>
+    </div>
+    <div>
+        <fieldset style="width:30%">
+            <legend>Personal Information</legend>
+            <table style="width:40%">
+                <tr>
+                    <td>
+                        <label for="nm">Name</label><br>
+                        <input type="text" name="nm" id="nm" style="box-shadow:1px 1px 1px grey">
+                    </td>
+                    <tr>
+                    <td>
+                        <br>
+                        <label for="tn">Telephone number</label><br>
+                        <input type="text" name="tn" id="tn" style="box-shadow:1px 1px 1px grey">
+                    </td>
+                    <tr>
+                    <td>
+                        <br>
+                        <label for="ea">Email adress</label><br>
+                        <input type="text" name="ea" id="ea" style="box-shadow:1px 1px 1px grey" size="20">
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <br>
+                        <label for="dob">Date of Birth</label><br>
+                        <input type="date" name="dob" id="dob" style="box-shadow:1px 1px 1px grey" size="5">
+                    </td>
+                 </tr>
+                </tr>
+                </tr>
+                    
+
+            </table>
+
+        </fieldset>
+    </div>
+    <div>
+        <fieldset style="width:30%">
+            <legend>Appointment Request</legend>
+            <table>
+                <tr>
+                    <td>
+                        <br>
+                        <label for="reason">What is the reason for your visit?</label><br>
+                        <input type="text" name="reason" id="reason" style="box-shadow:1px 1px 1px grey" size="23" placeholder="Select or type your reason">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <label for="pain">Current pain level</label><br>
+                        <input type="range" name="range" id="range" style="box-shadow:1px 1px 1px grey"  >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <br>
+                        <label for="d">Preferred date</label><br>
+                        <input type="date" name="d" id="d" style="box-shadow:1px 1px 1px grey" >
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <br>
+                        <label for="t">Preferred time</label><br>
+                        <input type="time" name="t" id="t" style="box-shadow:1px 1px 1px grey" >
+                    </td>
+                 </tr>
+            </table>
+          
+        </fieldset>
+    </div>
+    <div>
+        <button type="submit">submit</button>
+    </div>
+</body>
+</html>
